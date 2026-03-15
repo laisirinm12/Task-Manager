@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1773576217877,
+    "task": "Make a Phone Call",
+    "completed": false,
+    "createdAt": "15/3/2026"
+  },
+  {
+    "id": 1773576221071,
+    "task": "Read a book",
+    "completed": false,
+    "createdAt": "15/3/2026"
+  },
+  {
+    "id": 1773576226947,
+    "task": "Motivation",
+    "completed": true,
+    "createdAt": "15/3/2026"
+  },
+  {
+    "id": 1773576230172,
+    "task": "Morning Walk",
+    "completed": true,
+    "createdAt": "15/3/2026"
+  },
+  {
+    "id": 1773576235450,
+    "task": "Talk with you crush",
+    "completed": true,
+    "createdAt": "15/3/2026"
+  },
+  {
+    "id": 1773578037771,
+    "task": "Drink Water - 5L",
+    "completed": true,
+    "createdAt": "15/3/2026"
+  }
+]
