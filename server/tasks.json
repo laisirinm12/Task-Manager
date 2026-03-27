@@ -2,48 +2,48 @@
   {
     "id": 1773576217877,
     "task": "Make a Phone Call",
-    "completed": false,
+    "completed": true,
     "createdAt": "15/3/2026"
   },
   {
     "id": 1773576221071,
     "task": "Read a book",
-    "completed": false,
-    "createdAt": "15/3/2026"
-  },
-  {
-    "id": 1773576226947,
-    "task": "Motivation",
-    "completed": true,
-    "createdAt": "15/3/2026"
-  },
-  {
-    "id": 1773576230172,
-    "task": "Morning Walk",
-    "completed": true,
-    "createdAt": "15/3/2026"
-  },
-  {
-    "id": 1773576235450,
-    "task": "Talk with you crush",
-    "completed": true,
-    "createdAt": "15/3/2026"
-  },
-  {
-    "id": 1773578037771,
-    "task": "Drink Water - 5L",
     "completed": true,
     "createdAt": "15/3/2026"
   },
   {
     "id": 1774590694467,
     "task": "Writing Journal",
-    "completed": false,
+    "completed": true,
     "createdAt": "27/3/2026"
   },
   {
     "id": 1774590700912,
     "task": "Whats App",
+    "completed": false,
+    "createdAt": "27/3/2026"
+  },
+  {
+    "id": 1774591051035,
+    "task": "Eat",
+    "completed": false,
+    "createdAt": "27/3/2026"
+  },
+  {
+    "id": 1774591075026,
+    "task": "Done",
+    "completed": false,
+    "createdAt": "27/3/2026"
+  },
+  {
+    "id": 1774591076832,
+    "task": "e jv",
+    "completed": false,
+    "createdAt": "27/3/2026"
+  },
+  {
+    "id": 1774591077865,
+    "task": "v k",
     "completed": false,
     "createdAt": "27/3/2026"
   }

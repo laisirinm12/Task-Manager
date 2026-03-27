@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "../client")));
+
 app.use(cors());
 
 const tasksFile = path.join(__dirname, "./tasks.json");
@@ -32,6 +32,12 @@ app.get("/", (req, res) => {
 app.get("/api/tasks", (req, res) => {
     const tasks = readTasks();
     res.json(tasks);
+});
+
+app.use(express.static(path.join(__dirname, "../client")));
+
+app.get("/test", (req, res) => {
+    res.send("API working");
 });
 
 app.post("/api/tasks", (req, res) => {

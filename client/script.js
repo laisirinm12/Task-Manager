@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/api/tasks";
+const API = "https://task-manager-backend-4u9r.onrender.com/api/tasks";
 let currentFilter = "all";
 
 async function loadTasks() {
