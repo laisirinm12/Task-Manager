@@ -5,6 +5,14 @@ It allows users to organize and manage daily tasks through an interactive and vi
 
 The application supports creating, editing, completing, filtering and deleting tasks while maintaining a clean **glassmorphism UI design** with a modern background.
 
+##  Live Demo
+
+###  Frontend
+https://task-manager0715.netlify.app/
+
+###  Backend API
+https://task-manager-backend-4u9r.onrender.com
+
 ## Features
 
 - Add new tasks
