@@ -34,5 +34,17 @@
     "task": "Drink Water - 5L",
     "completed": true,
     "createdAt": "15/3/2026"
+  },
+  {
+    "id": 1774590694467,
+    "task": "Writing Journal",
+    "completed": false,
+    "createdAt": "27/3/2026"
+  },
+  {
+    "id": 1774590700912,
+    "task": "Whats App",
+    "completed": false,
+    "createdAt": "27/3/2026"
   }
 ]

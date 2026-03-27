@@ -1,18 +1,24 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const cors = require("cors");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../client")));
+app.use(cors());
 
-const tasksFile = path.join(__dirname, "tasks.json");
+const tasksFile = path.join(__dirname, "./tasks.json");
 
 function readTasks() {
-    const data = fs.readFileSync(tasksFile);
-    return JSON.parse(data);
+    try {
+        const data = fs.readFileSync(tasksFile);
+        return JSON.parse(data);
+    } catch (error) {
+        return [];
+    }
 }
 
 function writeTasks(tasks) {
